@@ -10,7 +10,7 @@ body{
     font-family: 'outfit',sans-serif;
 }
 
-.container{
+main{
     height: 100vh;
     background-color: hsl(212, 45%, 89%);
     display: flex;
@@ -18,10 +18,10 @@ body{
     align-items: center;
 }
 
-.container .contain{
+.contain{
     background: hsl(0, 0%, 100%);
-    width: 250px;
-    padding: 15px;
+    width: 290px;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,20 +30,20 @@ body{
     box-shadow: 0.5px 0.5px 15px hsl(212, 45%, 89%);
 }
 
-.container .contain .image{
-    width: 220px;
-    height: 220px;
+.contain .image{
+    width: 260px;
+    height: 260px;
     margin-bottom: 20px;
 }
 
-.container .contain .image img{
+.contain .image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.container .contain .content{
+.contain .content{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,13 +53,12 @@ body{
     padding: 0 5px;
 }
 
-.container .contain .content p.title{
-    font-weight: 700;
-    font-size: 16px;
+.contain .content h2{
+    font-size: 1.3rem;
     color: hsl(218, 44%, 22%);
 }
 
-.container .contain .content p{
+.contain .content p{
     font-size: 15px;
     color: hsl(216, 15%, 48%);
 }
